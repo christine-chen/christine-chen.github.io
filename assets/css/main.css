@@ -1910,7 +1910,7 @@
 		.icon > .label {
 			display: none;
 		}
-		
+
 /* List */
 
 	ol.default {
@@ -2997,6 +2997,12 @@
 
 	}
 
+	#selfie {
+		width: 5em;
+		height: 5em;
+		border-radius: 100%;
+	}
+
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
@@ -3030,7 +3036,7 @@
 				header.major {
 					padding-bottom: 0;
 				}
-
+/*
 				header.special {
 					margin-bottom: 3em;
 					padding-left: 1.5em;
@@ -3039,7 +3045,7 @@
 
 					header.special:before, header.special:after {
 						width: 38%;
-					}
+					}*/
 
 /*					header.special .icon {
 						font-size: 0.75em;
