@@ -1894,7 +1894,7 @@
 					background: #df93b8;
 				}
 
-		.icon.featured {
+/*		.icon.featured {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
@@ -1904,13 +1904,13 @@
 
 			.icon.featured:before {
 				font-size: 5em;
-				line-height: 1em;
+				line-height: 1em;*/
 			}
 
 		.icon > .label {
 			display: none;
 		}
-
+		
 /* List */
 
 	ol.default {
@@ -2574,13 +2574,13 @@
 
 		/* Section/Article */
 
-			header.major {
+/*			header.major {
 				padding-bottom: 1.5em;
 			}
 
 			footer.major {
 				padding-top: 2em;
-			}
+			}*/
 
 		/* Wrapper */
 
@@ -2728,13 +2728,13 @@
 
 		/* Section/Article */
 
-			section {
+/*			section {
 				margin: 1em 0 1em 0;
-			}
+			}*/
 
-				section:first-child {
+/*				section:first-child {
 					margin-top: 0;
-				}
+				}*/
 
 		/* Button */
 
