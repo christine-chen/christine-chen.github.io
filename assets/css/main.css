@@ -1945,15 +1945,15 @@
 				padding-left: 0;
 			}
 
-	ul.featured-icons {
+/*	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
 		opacity: 0.35;
 		overflow: hidden;
 		position: relative;
 	}
-
-		ul.featured-icons li {
+*/
+/*		ul.featured-icons li {
 			display: block;
 			float: left;
 			text-align: center;
@@ -1966,7 +1966,7 @@
 				height: 1.25em;
 				line-height: 1.25em;
 				width: 1em;
-			}
+			}*/
 
 	ul.buttons {
 		cursor: default;
@@ -2547,12 +2547,12 @@
 				font-size: 14pt;
 			}
 
-		/* Section/Article */
+/*		/* Section/Article */
 
-			header.special {
+/*			header.special {
 				padding-top: 5.5em;
 				margin-bottom: 4em;
-			}
+/*			}*/
 
 	}
 
@@ -2713,10 +2713,10 @@
 				padding-bottom: 0.25em;
 			}
 
-			header.special {
+/*			header.special {
 				margin-bottom: 4em;
 				padding-top: 5em;
-			}
+			}*/
 
 				header.special:before, header.special:after {
 					width: 40%;
@@ -3031,7 +3031,7 @@
 					padding-bottom: 0;
 				}
 
-				header.special {
+/*				header.special {
 					margin-bottom: 3em;
 					padding-left: 1.5em;
 					padding-right: 1.5em;
@@ -3039,7 +3039,7 @@
 
 					header.special:before, header.special:after {
 						width: 38%;
-					}
+					}*/
 
 /*					header.special .icon {
 						font-size: 0.75em;
