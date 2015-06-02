@@ -2998,9 +2998,11 @@
 	}
 
 	#self {
-		width: 7em;
-		height: 5em;
+		width: 10em;
+		height: 8em;
 		text-align: center;
+		position: relative;
+		top: -3em;
 	}
 
 /*	.selfie {
