@@ -2997,6 +2997,14 @@
 
 	}
 
+	#self {
+		border-width: 2em;
+		border-style: solid;
+		border-color: white;
+		text-align: center;
+		border-radius: 100%;
+	}
+
 	.selfie {
 		border-width: 2em;
 		border-style: solid;
