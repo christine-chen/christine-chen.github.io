@@ -3046,13 +3046,13 @@
 					padding-bottom: 0;
 				}
 
-				header.special {
+/*				header.special {
 					margin-bottom: 3em;
 					padding-left: 1.5em;
 					padding-right: 1.5em;
-				}
+				}*/
 
-					header.special:before, header.special:after {
+/*					header.special:before, header.special:after {
 						width: 38%;
 					}
 
@@ -3063,7 +3063,7 @@
 
 				header p {
 					text-align: center;
-				}
+				}*/
 
 			footer.major {
 				padding-top: 0;
