@@ -2997,12 +2997,12 @@
 
 	}
 
-	#self {
+/*	#self {
 		width: 5em;
 		height: 3em;
 		text-align: center;
 		border-radius: 100%;
-	}
+	}*/
 
 	.selfie {
 		border-width: 2em;
