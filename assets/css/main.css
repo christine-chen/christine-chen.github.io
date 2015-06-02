@@ -2998,9 +2998,8 @@
 	}
 
 	#self {
-		border-width: 2em;
-		border-style: solid;
-		border-color: white;
+		width: 5em;
+		height: 3em;
 		text-align: center;
 		border-radius: 100%;
 	}
