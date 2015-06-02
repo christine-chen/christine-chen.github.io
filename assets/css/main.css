@@ -2997,8 +2997,8 @@
 
 	}
 
-	#selfie {
-		border-width: 2.5em;
+	.selfie {
+		border-width: 2em;
 		border-style: solid;
 		border-color: white;
 		text-align: center;
