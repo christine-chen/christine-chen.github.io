@@ -1,0 +1,9 @@
+body {
+    background-color: #ffffff;
+}
+
+#intro {
+	background-image: url(images/background.png);
+	background-position: right top;
+    background-attachment: fixed;
+}
