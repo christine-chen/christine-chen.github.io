@@ -1,9 +1,165 @@
+html{
+    font-size: 100%;
+}
+
 body {
+    margin: 0;
+    background-color: #002b36;
+    font-size: 2rem;
+}
+
+/*intro*/
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.headerContent {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.headerBreak {
+    height: 0;
+    position: relative;
+    width: 452px;
+    top: 10px;
+    left: 480px;
+    float: right;
+    border-top: 2px solid #586e75;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+}
+
+/*.toplogo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+}*/
+
+.name {
+    color: #fdf6e3;
+    font-size: 6.5rem;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.discriptors {
+    color: #fdf6e3;
+    font-size: 1.75rem;
+    left: 0;
+    position: absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%;
+    padding-top: 410px;
+}
+
+.nav {
+    height: 35px;
     background-color: #ffffff;
 }
 
-#intro {
-	background-image: url(images/background.png);
-	background-position: right top;
-    background-attachment: fixed;
+.nav ul {
+    margin: 0;
+    padding: 0;
 }
+
+.nav ul li {
+    list-style: none;
+    float: right;
+}
+
+/*.nav ul li a {
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 1.25rem;
+    text-align: right;
+}*/
+
+.nav ul li a:hover {
+    color: #fdf6e3;
+}
+
+.about {
+    color: #2aa198;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 30px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.projects {
+    color: #d33682;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 30px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.skills {
+    color: #268bd2;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 30px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.contact {
+    color: #6c71c4;
+    text-decoration: none;
+    float: right;
+    display: block;
+    /*padding: 10px 30px;*/
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+/*.about:hover {
+    padding-top: 40px;
+    color: #fdf6e3;
+}
+
+.projects:hover {
+    color: #fdf6e3;
+}
+
+.skills:hover {
+    color: #fdf6e3;
+}
+
+.contact:hover {
+    color: #fdf6e3;
+}*/
+/*end of intro*/
+
