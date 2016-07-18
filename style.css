@@ -21,7 +21,7 @@ body {
     
 }
 
-.headerBreak {
+/*.headerBreak {
     height: 0;
     position: relative;
     width: 452px;
@@ -29,7 +29,7 @@ body {
     left: 480px;
     float: right;
     border-top: 2px solid #586e75;
-}
+}*/
 
 .background {
     width: 100%;
@@ -38,24 +38,36 @@ body {
     position: fixed;
 }
 
-/*.toplogo {
-    width: 100px;
-    height: 100px;
+.toplogo {
+    width: 110px;
+    height: 110px;
     margin: 0 auto;
     position: absolute;
     top: 10px;
-    left: 850px;
-}*/
+    left: 360px;
+    padding-top: 325px;
+}
 
-.name {
-    color: #fdf6e3;
-    font-size: 6.5rem;
+.construction {
+    color: #93a1a1;
+    font-size: 2rem;
     left: 0;
     position: absolute;
     text-align: center;
     top: 30px;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 200px;
+}
+
+.name {
+    width: 100%;
+    height: auto;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    /*width: 100%;*/
+    padding-top: 225px;
 }
 
 .discriptors {
@@ -64,7 +76,7 @@ body {
     left: 0;
     position: absolute;
     text-align:center;
-    top: 30px;
+    top: 25px;
     width: 100%;
     padding-top: 410px;
 }
