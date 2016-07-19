@@ -18,7 +18,6 @@ body {
     width: 100%;
     height: auto;
     background-color: #002b36;
-    /*padding-bottom: 20px;*/
 }
 
 .headerContent {
@@ -26,23 +25,13 @@ body {
     height: auto;
     margin: 0 auto;
     background-color: #fdf6e3;
-}
 
-/*.headerBreak {
-    height: 0;
-    position: relative;
-    width: 452px;
-    top: 10px;
-    left: 480px;
-    float: right;
-    border-top: 2px solid #586e75;
-}*/
+}
 
 .background {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    /*position: absolute;*/
 }
 
 /*.toplogo {
