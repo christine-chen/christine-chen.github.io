@@ -4,21 +4,28 @@ html{
 
 body {
     margin: 0;
+    /*background-color: #fdf6e3;*/
     background-color: #002b36;
     font-size: 2rem;
 }
+
+/*.wrapper{
+    position: relative;
+}*/
 
 /*intro*/
 .header {
     width: 100%;
     height: auto;
+    background-color: #002b36;
+    /*padding-bottom: 20px;*/
 }
 
 .headerContent {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    
+    background-color: #fdf6e3;
 }
 
 /*.headerBreak {
@@ -35,10 +42,10 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    position: fixed;
+    /*position: absolute;*/
 }
 
-.toplogo {
+/*.toplogo {
     width: 110px;
     height: 110px;
     margin: 0 auto;
@@ -46,7 +53,7 @@ body {
     top: 10px;
     left: 360px;
     padding-top: 325px;
-}
+}*/
 
 .construction {
     color: #93a1a1;
@@ -54,9 +61,9 @@ body {
     left: 0;
     position: absolute;
     text-align: center;
-    top: 30px;
+    /*top: 30px;*/
     width: 100%;
-    padding-top: 200px;
+    top: 20%;
 }
 
 .name {
@@ -65,9 +72,7 @@ body {
     left: 0;
     position: absolute;
     text-align: center;
-    top: 30px;
-    /*width: 100%;*/
-    padding-top: 225px;
+    top: 35%;
 }
 
 .discriptors {
@@ -76,14 +81,14 @@ body {
     left: 0;
     position: absolute;
     text-align:center;
-    top: 25px;
     width: 100%;
-    padding-top: 410px;
+    top: 58%;
 }
 
 .nav {
     height: 35px;
-    background-color: #ffffff;
+    background-color: #002b36;
+    padding-bottom: 15px;
 }
 
 .nav ul {
@@ -115,7 +120,7 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    padding: 10px 30px;
+    padding: 10px 25px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -126,7 +131,7 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    padding: 10px 30px;
+    padding: 10px 25px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -137,7 +142,7 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    padding: 10px 30px;
+    padding: 10px 25px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -148,10 +153,9 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    /*padding: 10px 30px;*/
     padding-top: 10px;
     padding-left: 30px;
-    padding-right: 40px;
+    padding-right: 35px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -175,3 +179,116 @@ body {
 }*/
 /*end of intro*/
 
+/*about me*/
+/*.aboutme {
+    color:#2aa198;
+    text-align: center;
+}
+.myself {
+    background-color: #fdf6e3;
+}*/
+/*end of about me*/
+
+/*contact*/
+.contactMe {
+    /*background-color: #6c71c4;*/
+    background-color: #fdf6e3;
+    position: relative;
+    top: 75%;
+/*    width: 2083px;
+    height: 500px;*/
+}
+
+/*.contactTitle {
+    padding-top: 5px;
+    font-size: 2rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #6c71c4;
+}*/
+
+.contactIcons {
+    left: 0;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+
+.github {
+    /*background-color: #fdf6e3;*/
+    width: 80px;
+    height:auto;
+    /*text-align: center;*/
+}
+
+.linkedin {
+    /*background-color: #fdf6e3;*/
+    width: 80px;
+    height:auto;
+    /*text-align: center;*/
+}
+
+.resume {
+    padding-left: 10px;
+    width: 57px;
+    height:auto;
+}
+
+.mail {
+    /*background-color: #fdf6e3;*/
+    width: 80px;
+    height:auto;
+    /*text-align: center;*/
+}
+
+.pinterest {
+    /*background-color: #fdf6e3;*/
+    padding-left: 10px;
+    width: 80px;
+    height:auto;
+    /*text-align: center;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end contact*/
