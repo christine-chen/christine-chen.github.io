@@ -44,7 +44,8 @@ body {
     left: 0;
     position: absolute;
     text-align: center;
-    top: 35%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .discriptors {
@@ -156,7 +157,7 @@ body {
 /*contact*/
 .contactMe {
     /*background-color: #6c71c4;*/
-    background-color: #fdf6e3;
+    /*background-color: #fdf6e3;*/
     position: relative;
     top: 75%;
 }
@@ -185,10 +186,8 @@ body {
 }
 
 .linkedin {
-    /*background-color: #fdf6e3;*/
     width: 80px;
     height:auto;
-    /*text-align: center;*/
 }
 
 .resume {
@@ -198,17 +197,13 @@ body {
 }
 
 .mail {
-    /*background-color: #fdf6e3;*/
     width: 80px;
     height:auto;
-    /*text-align: center;*/
 }
 
 .pinterest {
-    /*background-color: #fdf6e3;*/
     padding-left: 10px;
     width: 80px;
-    height:auto;
     /*text-align: center;*/
 }
 
