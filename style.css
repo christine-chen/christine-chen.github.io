@@ -11,8 +11,6 @@ body {
 
 /*intro*/
 .header {
-    width: 100%;
-    height: auto;
     background-color: #002b36;
 }
 
@@ -20,7 +18,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #fdf6e3;
+    /*background-color: #fdf6e3;*/
 
 }
 
@@ -54,9 +52,10 @@ body {
     font-size: 1.75rem;
     left: 0;
     position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
     text-align:center;
     width: 100%;
-    top: 58%;
 }
 
 .nav {
@@ -153,14 +152,13 @@ body {
 }*/
 /*end of about me*/
 
+
 /*contact*/
 .contactMe {
     /*background-color: #6c71c4;*/
     background-color: #fdf6e3;
     position: relative;
     top: 75%;
-/*    width: 2083px;
-    height: 500px;*/
 }
 
 /*.contactTitle {
