@@ -11,6 +11,8 @@ body {
 
 /*intro*/
 .header {
+    width: 100%;
+    height: auto;
     background-color: #002b36;
 }
 
@@ -35,7 +37,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 20%;
+    top: 15%;
 }
 
 .name {
@@ -44,8 +46,7 @@ body {
     left: 0;
     position: absolute;
     text-align: center;
-    top: 300px;
-    padding-bottom: 100px;
+    top: 35%;
 }
 
 .discriptors {
@@ -53,9 +54,9 @@ body {
     font-size: 1.75rem;
     left: 0;
     position: absolute;
-    top: 460px;
     text-align:center;
     width: 100%;
+    top: 58%;
 }
 
 .nav {
@@ -142,72 +143,193 @@ body {
 }*/
 /*end of intro*/
 
+
+
 /*about me*/
-/*.aboutme {
-    color:#2aa198;
+
+.abouttable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    margin: 0px auto;
+}
+
+.dash {
+    color: #2aa198;
+}
+
+.tealT {
+    width: 20px;
+    height: auto;
+}
+
+.aboutmeTitle {
+    color:#fdf6e3;
+    font-size: 3.5rem;
     text-align: center;
 }
-.myself {
-    background-color: #fdf6e3;
-}*/
+
+.aboutcontent span {
+    color: #2aa198;
+}
+
+.mypic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+    /*border: 5px solid #2aa198;*/
+}
+
+.aboutcontent {
+    font-size: 1.75rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 50%;
+    height: auto;
+    color: #fdf6e3;
+}
+
 /*end of about me*/
 
 
+
+/*projects*/
+
+.projectTitle {
+    color:#fdf6e3;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.projectstable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    margin: 0px auto;
+}
+
+.pinkT {
+    width: 20px;
+    height: auto;
+}
+
+/*end of projects*/
+
+
+
+/*skills*/
+
+.skillsTitle {
+    color:#fdf6e3;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.skillstable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    margin: 0px auto;
+}
+
+.blueT {
+    width: 20px;
+    height: auto;
+}
+
+/*end of skills*/
+
 /*contact*/
+
+.contacttable {
+    left: 0;
+    margin: 0px auto;
+}
+
 .contactMe {
-    /*background-color: #6c71c4;*/
-    /*background-color: #fdf6e3;*/
     position: relative;
     top: 75%;
 }
 
-/*.contactTitle {
-    padding-top: 5px;
-    font-size: 2rem;
-    left: 0;
+.purpleT {
+    width: 20px;
+    height: auto;
+}
+
+.contactTitle {
+    font-size: 3.5rem;
     text-align: center;
-    width: 100%;
-    color: #6c71c4;
-}*/
+    color: #fdf6e3;
+}
 
 .contactIcons {
     left: 0;
     margin: 0px auto;
-    position: relative;
-    text-align: center;
-    padding-top: 20px;
 }
 
 .github {
     /*background-color: #fdf6e3;*/
     width: 80px;
     height:auto;
-    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .linkedin {
-    width: 80px;
+    /*background-color: #fdf6e3;*/
+    width: 85px;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .resume {
     padding-left: 10px;
     width: 57px;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mail {
+    /*background-color: #fdf6e3;*/
     width: 80px;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pinterest {
+    /*background-color: #fdf6e3;*/
     padding-left: 10px;
-    width: 80px;
-    /*text-align: center;*/
+    width: 85px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+.end {
+    text-align: center;
+}
 
+.bottomName {
+    position: relative;
+    font-size: 1rem;
+    color: #2aa198;
+    padding-bottom: 15px;
+}
+
+.year {
+    font-size: 1rem;
+    color: #93a1a1;
+    position: relative;
+}
 
 
 
