@@ -121,6 +121,17 @@ body {
     text-align: right;
 }
 
+.activities {
+    color: #dc322f;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
 .contact {
     color: #6c71c4;
     text-decoration: none;
@@ -163,10 +174,6 @@ body {
     margin: 0px auto;
 }
 
-.dash {
-    color: #2aa198;
-}
-
 .tealT {
     width: 20px;
     height: auto;
@@ -174,7 +181,7 @@ body {
 
 .aboutmeTitle {
     color:#fdf6e3;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     text-align: center;
 }
 
@@ -190,11 +197,10 @@ body {
     width: 65%;
     height: auto;
     border-radius: 50%;
-    /*border: 5px solid #2aa198;*/
 }
 
 .aboutcontent {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -212,7 +218,7 @@ body {
 
 .projectTitle {
     color:#fdf6e3;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -236,7 +242,7 @@ body {
 
 .skillsTitle {
     color:#fdf6e3;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -252,7 +258,47 @@ body {
     height: auto;
 }
 
+.languagestable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    margin: 0px auto;
+}
+
+.python {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    left: 25%;
+}
+
 /*end of skills*/
+
+
+/*activities*/
+
+.activitiesTitle {
+    color:#fdf6e3;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.activitiestable {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    margin: 0px auto;
+}
+
+.redT {
+    width: 20px;
+    height: auto;
+}
+
+/*end of activities*/
+
 
 /*contact*/
 
@@ -272,7 +318,7 @@ body {
 }
 
 .contactTitle {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     color: #fdf6e3;
 }
