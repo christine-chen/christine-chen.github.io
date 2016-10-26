@@ -172,6 +172,7 @@ body {
     padding-bottom: 20px;
     left: 0;
     margin: 0px auto;
+    /*padding-left: 60%;*/
 }
 
 .tealT {
@@ -182,7 +183,7 @@ body {
 .aboutmeTitle {
     color:#fdf6e3;
     font-size: 3.0rem;
-    text-align: center;
+    
 }
 
 .aboutcontent span {
@@ -194,9 +195,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 65%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
+    right: 5%;
 }
 
 .aboutcontent {
@@ -208,6 +210,7 @@ body {
     width: 50%;
     height: auto;
     color: #fdf6e3;
+    right: 5%;
 }
 
 /*end of about me*/
@@ -217,6 +220,7 @@ body {
 /*projects*/
 
 .projectTitle {
+    padding-top: 25px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -230,10 +234,103 @@ body {
 }
 
 .pinkT {
+    padding-top: 25px;
     width: 20px;
     height: auto;
 }
 
+.gitlett {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gitlet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 20%;
+    right: 7%;
+}
+
+.gitletText {
+    padding-top: 27px;
+    font-size: 1.5rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 50%;
+    height: auto;
+    color: #fdf6e3;
+    right: 7%;
+}
+
+.gitletTable {
+    left: 0;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+}
+
+.hangman {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.hangmanPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 20%;
+    right: 7%;
+}
+
+.hangmanText {
+    padding-top: 27px;
+    font-size: 1.5rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 50%;
+    height: auto;
+    color: #fdf6e3;
+    right: 7%;
+}
+
+.dogesitter {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.doge{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 20%;
+    right: 7%;
+}
+
+.dogeText {
+    padding-top: 27px;
+    font-size: 1.5rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 50%;
+    height: auto;
+    color: #fdf6e3;
+    right: 7%;
+}
 /*end of projects*/
 
 
@@ -241,6 +338,7 @@ body {
 /*skills*/
 
 .skillsTitle {
+    padding-top: 25px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -254,6 +352,7 @@ body {
 }
 
 .blueT {
+    padding-top: 25px;
     width: 20px;
     height: auto;
 }
@@ -261,17 +360,16 @@ body {
 .languagestable {
     padding-top: 20px;
     padding-bottom: 20px;
-    left: 0;
     margin: 0px auto;
 }
+
 
 .python {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
-    height: auto;
-    left: 25%;
+    width: auto;
+    height: 25%;
 }
 
 /*end of skills*/
@@ -280,6 +378,7 @@ body {
 /*activities*/
 
 .activitiesTitle {
+    padding-top: 25px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -287,14 +386,55 @@ body {
 
 .activitiestable {
     padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
     left: 0;
     margin: 0px auto;
 }
 
 .redT {
+    padding-top: 25px;
     width: 20px;
     height: auto;
+}
+
+.iOS {
+    display: block;
+    margin-left: 47%;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    right: 15%;
+
+}
+.iOSTitle {
+    font-size: 4.0rem;
+    position: relative;
+    margin-right: auto;
+    padding-right: 50px;
+    /*width: 50%;*/
+    /*height: auto;*/
+    font-family: Helvetica Neue;
+    font-weight: lighter;
+    color: #fdf6e3;
+    right: 8%;
+}
+
+.iOSText {
+    font-size: 1.5rem;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 50%;
+    height: 45%;
+    color: #fdf6e3;
+    right: 9%;
+}
+
+.iOSText span {
+    color: #dc322f;
 }
 
 /*end of activities*/
@@ -313,11 +453,13 @@ body {
 }
 
 .purpleT {
+    padding-top: 25px;
     width: 20px;
     height: auto;
 }
 
 .contactTitle {
+    padding-top: 25px;
     font-size: 3rem;
     text-align: center;
     color: #fdf6e3;
@@ -361,7 +503,6 @@ body {
 }
 
 .pinterest {
-    /*background-color: #fdf6e3;*/
     padding-left: 10px;
     width: 85px;
     height:auto;
