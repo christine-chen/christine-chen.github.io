@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 100%;
 }
 
@@ -30,7 +30,7 @@ body {
     position: relative;
 }
 
-.construction {
+/*.construction {
     color: #93a1a1;
     font-size: 2rem;
     left: 0;
@@ -38,7 +38,7 @@ body {
     text-align: center;
     width: 100%;
     top: 15%;
-}
+}*/
 
 .introduction {
 
