@@ -194,17 +194,18 @@ body {
     padding-bottom: 20px;
     left: 0;
     margin: 0px auto;
-    /*padding-left: 60%;*/
 }
 
 .tealT {
     padding-top: 30px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .aboutmeTitle {
     padding-top: 30px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3.0rem;
     
@@ -228,10 +229,10 @@ body {
     font-size: 1.5rem;
     margin-left: 0;
     position: relative;
-    padding-left: 225px;
-    padding-right: 225px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 10px;
-    width: 70%;
+    width: 80%;
     height: 45%;
     color: #fdf6e3;
     text-align: center;
@@ -248,10 +249,10 @@ body {
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
+    padding-bottom: 0;
 }
 
 .projectstable {
-    padding-top: 20px;
     padding-bottom: 20px;
     left: 0;
     margin: 0px auto;
@@ -282,10 +283,11 @@ body {
 
 .gitlet {
     display: block;
-    left: 53%;
+    left: 35%;
     position: relative;
     width: 35%;
     height: auto;
+    top: 75px;
     border-radius: 50%;
 }
 
@@ -294,17 +296,22 @@ body {
     margin-left: 0;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
-    height: 45%;
+    top: -35px;
     color: #fdf6e3;
 }
 
 .gitletTable {
-    left: 0;
-    margin: 0px auto;
-    width: 100%;
+    font-size: 1.5rem;
+    top:-50px;
+    position: relative;
+    left: 30%;
+    color: #fdf6e3;
+    padding-right: 50%;
+    width: 50%;
     height: auto;
+    bottom: 20px;
 }
 
 .hangman {
@@ -314,18 +321,20 @@ body {
 .hangmanPic {
     display: block;
     position: relative;
+    top:20px;
     width: 35%;
     height: auto;
     border-radius: 50%;
-    left: 53%;
+    left: 35%;
 }
 
 .hangmanText {
     font-size: 1.5rem;
     margin-left: 0;
+    top: 20px;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
     height: 45%;
     color: #fdf6e3;
@@ -342,7 +351,7 @@ body {
     width: 35%;
     height: auto;
     border-radius: 50%;
-    left: 53%;
+    left: 35%;
 }
 
 .dogeText {
@@ -350,7 +359,7 @@ body {
     margin-left: 0;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
     height: 45%;
     color: #fdf6e3;
@@ -363,6 +372,7 @@ body {
 
 .skillsTitle {
     padding-top: 25px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -377,23 +387,22 @@ body {
 
 .blueT {
     padding-top: 25px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .languagestable {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0px auto;
+    margin-left:10%; 
+    margin-right:10%;
+    width: 85%;
 }
 
 
 .python {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    height: 4.3%;
+    /*vertical-align: middle;*/
+    width: 70%;
+    height: auto;
 }
 
 /*end of skills*/
@@ -403,6 +412,7 @@ body {
 
 .experienceTitle{
     padding-top: 25px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -421,12 +431,13 @@ body {
 
 .redT {
     padding-top: 25px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .intuit {
-    margin-left: 53%;
+    margin-left: 35%;
     position: relative;
     width: 35%;
     height: auto;
@@ -438,7 +449,7 @@ body {
     margin-left: 0;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
     height: 45%;
     color: #fdf6e3;
@@ -449,7 +460,7 @@ body {
 }
 
 .oopseeicon {
-    margin-left: 53%;
+    margin-left: 35%;
     top: 25px;
     position: relative;
     width: 35%;
@@ -463,14 +474,14 @@ body {
     top: 25px;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
     height: 45%;
     color: #fdf6e3;
 }
 
 .iOS {
-    margin-left: 53%;
+    margin-left: 35%;
     top: 50px;
     position: relative;
     width: 35%;
@@ -484,7 +495,7 @@ body {
     top: 50px;
     position: relative;
     padding-left: 15px;
-    padding-right: 225px;
+    padding-right: 10%;
     width: 70%;
     height: 45%;
     color: #fdf6e3;
