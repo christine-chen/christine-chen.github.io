@@ -1,7 +1,7 @@
 html {
     font-size: 100%;
     font-family: Helvetica;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 body {
@@ -11,6 +11,17 @@ body {
 }
 
 /*intro*/
+.i {
+    color: #dc322f;
+}
+
+.m {
+    color: #6c71c4;
+}
+
+.d {
+    color: #2aa198;
+}
 .header {
     width: 100%;
     height: auto;
@@ -134,6 +145,17 @@ body {
     text-align: right;
 }
 
+.design {
+    color: #cb4b16;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
 .contact {
     color: #6c71c4;
     text-decoration: none;
@@ -176,11 +198,13 @@ body {
 }
 
 .tealT {
+    padding-top: 30px;
     width: 20px;
     height: auto;
 }
 
 .aboutmeTitle {
+    padding-top: 30px;
     color:#fdf6e3;
     font-size: 3.0rem;
     
@@ -452,7 +476,6 @@ body {
     width: 35%;
     height: auto;
     border-radius: 50%;
-
 }
 
 .iOSText {
@@ -468,6 +491,45 @@ body {
 }
 
 /*end of experience*/
+
+.paddingsection {
+    padding-bottom: 90px;
+}
+
+/*design*/
+
+.designtable {
+    /*padding-top: 20px;*/
+    left: 0;
+    margin: 0px auto;
+}
+
+.designTitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fdf6e3;
+}
+
+.orangeT {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20px;
+    height: auto;
+}
+
+.designIcons {
+    left: 0;
+    margin: 0px auto;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*end of design*/
 
 
 /*contact*/

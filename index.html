@@ -1,240 +1,352 @@
 <!DOCTYPE html>
 <html>
-</html>
-<head>
-	<link rel="icon" href="images/icon.png">
-		<title> Christine Chen </title>
-<link rel= "stylesheet" type = "text/css" href= "style.css"/>
-</head>
+	<head>
+		<link rel="icon" href="images/icon.png">
+			<title> Christine Chen </title>
 
-<body>
-	<!-- intro -->
-	<section class = "header">
-		<div class = "headerContent">
-			<div class = "nav">
-				<ul class="w3-navbar w3-black">
-					<li><a href="#Contact" class = "contact">Contact</a></li>
-					<li><a href="#Experiences" class = "experiences">Experience</a></li>
-					<li><a href="#Skills" class = "skills">Skills</a></li>
-					<li><a href="#Projects" class = "projects">Projects</a></li>
-				  	<li><a href="#About" class = "about">About</a></li>
-				</ul>
-			</div>
-			<div class = "introduction">
-				<img class = "background" src = "images/background.png"/>
-				<!-- <h1 class = "construction"> {currently under renovation & redesign}</h1> -->
-				<h1 class = "discriptors"> Innovator. Maker. Educator. </h1>
-				<table class = "nametable">
-					<tr>
-						<td ><img class = "name" src = "images/name.png"/></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</section>
+		<!-- Latest compiled and minified CSS -->
+	    <link rel="stylesheet" href="static/css/bootstrap.min.css">
 
-	<!-- about me -->
-	<section class = "myself" id = "About">
-		<table class = "abouttable">
-			<tr>
-				<td><img class = "tealT" src="images/tealR.png"></td>
-				<td class = "aboutmeTitle">About Me</td>
-				<td><img class = "tealT" src="images/tealL.png"></td>
-			</tr>
-		</table>
-		<table class = "infotable">
-			<tr>
-				<td><img class = "mypic" src = "images/me.jpg"/></td>
-			</tr>
-			<tr>
-				<td class = "aboutcontent">
-					Hey there! I'm Christine, a senior at UC Berkeley studying <span>Computer Science</span> and <span>Cognitive Science</span>. I am interested in the role technology plays in making the world a better place! This summer, I am working at <span>Intuit</span> as a Software Engineer Intern on the <span>Data Ingestion</span> team. Looking forward, I am searching for a <span>full time</span> Software Engineering position. Please feel free to reach out to me, anytime!
-				</td>
-			</tr>
-		</table>
-	</section>
+	    <!-- Optional theme -->
+	    <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+		<link rel= "stylesheet" type = "text/css" href= "style.css"/>
+	</head>
 
-	<!-- projects -->
-	<section class = "theprojects" id = "Projects">
-		<table class = "projectstable">
-			<tr>
-				<td><img class = "pinkT" src="images/pinkR.png"></td>
-				<td class = "projectTitle"> Projects </h1></td>
-				<td><img class = "pinkT" src="images/pinkL.png"></td>
-			</tr>
-		</table>
-		<table class = "gitlett">
-			<tr>
-			    <td>
-			    	<a href = "https://github.com/christine-chen/Gitlet">
-			    	<img class = "gitlet" src = "images/Gitlet.png"/>
-			    	</a> 
-			    </td>
-			    <td class = "gitletText">
-			    	A simplified <span>version control system</span> like git. Implemented features include commands such as:
-			    	<table class = "gitletTable">
+	<body>
+		<!-- intro -->
+		<section class = "header">
+			<div class = "headerContent">
+				<div class = "nav">
+					<ul class="w3-navbar w3-black">
+						<li><a href="#Contact" class="contact">Contact</a></li>
+						<li><a href="#Design" class="design">Design</a></li>
+						<li><a href="#Experiences" class="experiences">Experience</a></li>
+						<li><a href="#Skills" class="skills">Skills</a></li>
+						<li><a href="#Projects" class="projects">Projects</a></li>
+					  	<li><a href="#About" class="about">About</a></li>
+					</ul>
+				</div>
+				<div class = "introduction">
+					<img class = "background" src = "images/background.png"/>
+					<!-- <h1 class = "construction"> {currently under renovation & redesign}</h1> -->
+					<h1 class = "discriptors"> <span class="i">Innovator.</span> <span class="m">Maker.</span> <span class="d">Designer.</span></h1>
+					<table class = "nametable">
 						<tr>
-							<td>
-								<ul style="list-style-type:disc">
-								  <li>add</li>
-								  <li>commit</li>
-								  <li>remove</li>
-								  <li>log</li>
-								  <li>global-log</li>
-								</ul>
-							</td>
-							<td>
-								<ul style="list-style-type:disc">
-									<li>find</li>
-									<li>status</li>
-									<li>checkout</li>
-									<li>remove-branch</li>
-									<li>merge</li>
-								</ul>
-							</td>
+							<td ><img class = "name" src = "images/name.png"/></td>
 						</tr>
 					</table>
-			    </td>
-		   </tr>
-		</table>
-		<table class = "dogesitter">
-			<tr>
-			    <td>
-			    	<a href = "https://github.com/christine-chen/DogeSitter">
-			    	<img class = "doge" src = "images/doge.png"/>
-			    	</a> 
-			    </td>
-			     <td class = "dogeText">
-			     	An original Doge themed <span>iOS game</span> made with SpriteKit. There are 3 mini games that randomly rotate through.
-			    </td>
-		   </tr>
-		</table>
-		<table class = "hangman">
-			<tr>
-			    <td>
-			    	<a href = "https://github.com/christine-chen/Hangman-App">
-			    	<img class = "hangmanPic" src = "images/crane.png"/>
-			    	</a> 
-			    </td>
-			     <td class = "hangmanText">
-			     	The iOS game, <span>Hangman</span>, reaimagined into an aethesticly pleasing past time. Contrary to the traditional stick figure, the images in this game were illustrated by me using Photoshop and Illustrator, to create a <span>multicolored origami crane</span>.
-			    </td>
-		   </tr>
-		</table>
+				</div>
+			</div>
+		</section>
 
-	</section>
+		<!-- about me -->
+		<section class = "myself" id = "About">
+			<table class = "abouttable">
+				<tr>
+					<td><img class = "tealT" src="images/tealR.png"></td>
+					<td class = "aboutmeTitle">About Me</td>
+					<td><img class = "tealT" src="images/tealL.png"></td>
+				</tr>
+			</table>
+			<table class = "infotable">
+				<tr>
+					<td><img class = "mypic" src = "images/me.jpg"/></td>
+				</tr>
+				<tr>
+					<td class = "aboutcontent">
+						Hey there! I'm Christine, a senior at UC Berkeley studying <span>Computer Science</span> and <span>Cognitive Science</span>. I am interested in the role technology plays in making the world a better place! This summer, I am working at <span>Intuit</span> as a Software Engineer Intern on the <span>Data Ingestion</span> team. Looking forward, I am searching for a <span>full time</span> Software Engineering position. Please feel free to reach out to me, anytime!
+					</td>
+				</tr>
+			</table>
+		</section>
 
-	<!-- skills -->
-	<section class = "skillz" id = "Skills">
-		<table class = "skillstable">
-			<tr>
-				<td><img class = "blueT" src="images/blueR.png"></td>
-				<td class = "skillsTitle"> Skills </h1></td>
-				<td><img class = "blueT" src="images/blueL.png"></td>
-			</tr>
-		</table>
-		<table class = "languagestable">
-			<tr>
-				<td><img class = "python" src="images/python.png"></td>
-				<td><img class = "python" src="images/java.png"></td>
-				<td><img class = "python" src="images/swift.png"></td>
-				<td><img class = "python" src="images/sql.png"></td>
-				<td><img class = "python" src="images/css.png"></td>
-				<td><img class = "python" src="images/C.png"></td>
-			</tr>
-		</table>
-	</section>
+		<!-- projects -->
+		<section class = "theprojects" id = "Projects">
+			<table class = "projectstable">
+				<tr>
+					<td><img class = "pinkT" src="images/pinkR.png"></td>
+					<td class = "projectTitle"> Projects </h1></td>
+					<td><img class = "pinkT" src="images/pinkL.png"></td>
+				</tr>
+			</table>
+			<table class = "gitlett">
+				<tr>
+				    <td>
+				    	<a href = "https://github.com/christine-chen/Gitlet">
+				    	<img class = "gitlet" src = "images/Gitlet.png"/>
+				    	</a> 
+				    </td>
+				    <td class = "gitletText">
+				    	A simplified <span>version control system</span> like git. Implemented features include commands such as:
+				    	<table class = "gitletTable">
+							<tr>
+								<td>
+									<ul style="list-style-type:disc">
+									  <li>add</li>
+									  <li>commit</li>
+									  <li>remove</li>
+									  <li>log</li>
+									  <li>global-log</li>
+									</ul>
+								</td>
+								<td>
+									<ul style="list-style-type:disc">
+										<li>find</li>
+										<li>status</li>
+										<li>checkout</li>
+										<li>remove-branch</li>
+										<li>merge</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+				    </td>
+			   </tr>
+			</table>
+			<table class = "dogesitter">
+				<tr>
+				    <td>
+				    	<a href = "https://github.com/christine-chen/DogeSitter">
+				    	<img class = "doge" src = "images/doge.png"/>
+				    	</a> 
+				    </td>
+				     <td class = "dogeText">
+				     	An original Doge themed <span>iOS game</span> made with SpriteKit. There are 3 mini games that randomly rotate through.
+				    </td>
+			   </tr>
+			</table>
+			<table class = "hangman">
+				<tr>
+				    <td>
+				    	<a href = "https://github.com/christine-chen/Hangman-App">
+				    	<img class = "hangmanPic" src = "images/crane.png"/>
+				    	</a> 
+				    </td>
+				     <td class = "hangmanText">
+				     	The iOS game, <span>Hangman</span>, reaimagined into an aethesticly pleasing past time. Contrary to the traditional stick figure, the images in this game were illustrated by me using Photoshop and Illustrator, to create a <span>multicolored origami crane</span>.
+				    </td>
+			   </tr>
+			</table>
 
-	<!-- experience -->
-	<section class = "experiencez" id = "Experiences">
-		<table class = "experiencestable">
-			<tr>
-				<td><img class = "redT" src="images/redR.png"></td>
-				<td class = "experienceTitle"> Experience </h1></td>
-				<td><img class = "redT" src="images/redL.png"></td>
-			</tr>
-		</table>
-		<table class = "experienceIcons">
-			<tr>
-				<td>
-					<a href="https://www.intuit.com/">
-					<img class="intuit" src="images/intuit.jpg">
-					</a>
-				</td>
-				<td class="intuitcontent">
-					As a Software Engineering Intern on the <span>Data Ingestion</span> team, I am responsible for creating a <span>log parser</span> that will be utilized to <span>troubleshoot errors</span> during batch ingestion. Additionally, a <span>database</span> will store a history of past ingestion statistics to be used to optimize different stages of the ingestion pipeline. Finally, a user friendly <span>dashboard</span> displays any information that analysts could hope for.
-				</td>
-			</tr>
+		</section>
 
-			<tr>
-				<td>
-					<a href="http://www.oopsee.biz/">
-					<img class="oopseeicon" src="images/oopsee.png">
-					</a>
-				</td>
-				<td class="oopseecontent">
-					As a <span>Software Engineering Intern</span> at a startup called oopSee, a voice interfaced teaching tool, I worked on developing the Android application. I contributed to the UI, backend, and bug fixes.
-				</td>
-			</tr>
+		<!-- skills -->
+		<section class = "skillz" id = "Skills">
+			<table class = "skillstable">
+				<tr>
+					<td><img class = "blueT" src="images/blueR.png"></td>
+					<td class = "skillsTitle"> Skills </h1></td>
+					<td><img class = "blueT" src="images/blueL.png"></td>
+				</tr>
+			</table>
+			<table class = "languagestable">
+				<tr>
+					<td><img class = "python" src="images/python.png"></td>
+					<td><img class = "python" src="images/java.png"></td>
+					<td><img class = "python" src="images/swift.png"></td>
+					<td><img class = "python" src="images/sql.png"></td>
+					<td><img class = "python" src="images/css.png"></td>
+					<td><img class = "python" src="images/C.png"></td>
+				</tr>
+			</table>
+		</section>
 
-			<tr>
-			    <td>
-			    	<img class = "iOS" src = "images/iOS.png"/>
-			    	</a> 
-			    </td>
-			     <td class = "iOSText">
-			    	<!-- <h1 class = "iOSTitle">iOS Decal</h1> -->
-			    	I am a <span>teaching assistant</span> for the student taught iOS Development class at Cal. I help teach and support <span>100+ students</span> in their journey to learn the basics of the iOS development platform.
-			    </td>
-		   </tr>
-		</table>
-	</section>
+		<!-- experience -->
+		<section class = "experiencez" id = "Experiences">
+			<table class = "experiencestable">
+				<tr>
+					<td><img class = "redT" src="images/redR.png"></td>
+					<td class = "experienceTitle"> Experience </h1></td>
+					<td><img class = "redT" src="images/redL.png"></td>
+				</tr>
+			</table>
+			<table class = "experienceIcons">
+				<tr>
+					<td>
+						<a href="https://www.intuit.com/">
+						<img class="intuit" src="images/intuit.jpg">
+						</a>
+					</td>
+					<td class="intuitcontent">
+						As a Software Engineering Intern on the <span>Data Ingestion</span> team, I am responsible for creating a <span>log parser</span> that will be utilized to <span>troubleshoot errors</span> during batch ingestion. Additionally, a <span>database</span> will store a history of past ingestion statistics to be used to optimize different stages of the ingestion pipeline. Finally, a user friendly <span>dashboard</span> displays any information that analysts could hope for.
+					</td>
+				</tr>
 
-	<!-- contact -->
-	<section class = "contactMe" id = "Contact">
-		<table class = "contacttable">
-			<tr>
-				<td></td>
-				<td><img class = "purpleT" colspan = "2" src="images/purpleR.png"></td>
-				<td class = "contactTitle"> Contact </h1></td>
-				<td><img class = "purpleT" colspan = "2" src="images/purpleL.png"></td>
-				<td></td>
-			</tr>
-		</table>
-		<table class = "contactIcons">
-			<tr>
-			    <td>
-			    	<a href = "https://github.com/christine-chen">
-			    	<img class = "github" src = "images/gitC1.png"/>
-			    	</a>
-			    </td>
-			    <td>
-			    	<a href = "https://www.linkedin.com/in/christine-chen-a42981107">
-			    		<img class = "linkedin" src = "images/inCT1.png"/>
-			    	</a>
-			    </td>
-			    <td>
-			    	<a href = "mailto:chen.christine17@berkeley.edu?Subject=Hello%20there!" target="_top">
-			    		<img class = "mail" src = "images/mailCT1.png"/>
-			    	</a>
-			    </td>
-			    <td>
-			    	<a href = "pdf/resume.pdf">
-			    		<img class = "resume" src = "images/resume1.png"/>
-			    	</a>
-			    </td>
-			    <td>
-			    	<a href = "https://www.pinterest.com/christinechen17/">
-			    		<img class = "pinterest" src = "images/pinC1.png"/>
-			    	</a>
-			    </td>
-		   </tr>
-		</table>
-	</section>
-	<section>
-		<div class = "end">
-			<span class = "bottomName"> Christine Chen. <span class = "year">2017</span></span>
-			<!-- <span class = "copy">&copy</span> -->
-		</div>
-	</section>
-</body>
+				<tr>
+					<td>
+						<a href="http://www.oopsee.biz/">
+						<img class="oopseeicon" src="images/oopsee.png">
+						</a>
+					</td>
+					<td class="oopseecontent">
+						As a <span>Software Engineering Intern</span> at a startup called oopSee, a voice interfaced teaching tool, I worked on developing the Android application. I contributed to the UI, backend, and bug fixes.
+					</td>
+				</tr>
+
+				<tr>
+				    <td>
+				    	<img class = "iOS" src = "images/iOS.png"/>
+				    	</a> 
+				    </td>
+				     <td class = "iOSText">
+				    	<!-- <h1 class = "iOSTitle">iOS Decal</h1> -->
+				    	I am a <span>teaching assistant</span> for the student taught iOS Development class at Cal. I help teach and support <span>100+ students</span> in their journey to learn the basics of the iOS development platform.
+				    </td>
+			   </tr>
+			</table>
+		</section>
+
+		<div class="paddingsection"></div>
+
+		<!-- design -->
+		<section class = "designsection" id = "Design">
+			<table class = "designtable">
+				<tr>
+					<td></td>
+					<td><img class = "orangeT" colspan = "2" src="images/orangeR.png"></td>
+					<td class = "designTitle"> Design </h1></td>
+					<td><img class = "orangeT" colspan = "2" src="images/orangeL.png"></td>
+					<td></td>
+				</tr>
+			</table>
+
+			<!-- CAROUSEL -->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="my-slider" class="carousel slide" data-ride="carousel">
+
+							<!-- indicators dot nov -->
+							<ol class="carousel-indicators">
+								<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+								<li data-target="#my-slider" data-slide-to="1"></li>
+							</ol>
+
+							<!-- wrapper for sides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="images/day.jpg" alt="day">
+									<div class="carousel-caption">
+										<!-- <h1>Sunrise at Disney</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/night.jpg" alt="night">
+									<div class="carousel-caption">
+										<!-- <h1>Fireworks at Disney</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/iceberg.png" alt="iceberg">
+									<div class="carousel-caption">
+										<!-- <h1>Iceberg</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/peach.png" alt="peach">
+									<div class="carousel-caption">
+										<!-- <h1>Peach</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/Pua.png" alt="pua">
+									<div class="carousel-caption">
+										<!-- <h1>Pua</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/up.png" alt="up">
+									<div class="carousel-caption">
+										<!-- <h1>Up</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/corgi.png" alt="corgi">
+									<div class="carousel-caption">
+										<!-- <h1>Corgi<h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/headandtheheart.png" alt="hath">
+									<div class="carousel-caption">
+										<!-- <h1>The Head and the Heart</h1> -->
+									</div>
+								</div>
+								<div class="item">
+									<img src="images/riversandroads.png" alt="rar">
+									<div class="carousel-caption">
+										<!-- <h1>Rivers and Roads<h1> -->
+									</div>
+								</div>
+							</div>
+
+							<!-- controls for next and prev buttons -->
+							<a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							</a>
+							<a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact -->
+		<section class = "contactMe" id = "Contact">
+			<table class = "contacttable">
+				<tr>
+					<td></td>
+					<td><img class = "purpleT" colspan = "2" src="images/purpleR.png"></td>
+					<td class = "contactTitle"> Contact </h1></td>
+					<td><img class = "purpleT" colspan = "2" src="images/purpleL.png"></td>
+					<td></td>
+				</tr>
+			</table>
+			<table class = "contactIcons">
+				<tr>
+				    <td>
+				    	<a href = "https://github.com/christine-chen">
+				    	<img class = "github" src = "images/gitC1.png"/>
+				    	</a>
+				    </td>
+				    <td>
+				    	<a href = "https://www.linkedin.com/in/christine-chen-a42981107">
+				    		<img class = "linkedin" src = "images/inCT1.png"/>
+				    	</a>
+				    </td>
+				    <td>
+				    	<a href = "mailto:chen.christine17@berkeley.edu?Subject=Hello%20there!" target="_top">
+				    		<img class = "mail" src = "images/mailCT1.png"/>
+				    	</a>
+				    </td>
+				    <td>
+				    	<a href = "pdf/resume.pdf">
+				    		<img class = "resume" src = "images/resume1.png"/>
+				    	</a>
+				    </td>
+				    <td>
+				    	<a href = "https://www.pinterest.com/christinechen17/">
+				    		<img class = "pinterest" src = "images/pinC1.png"/>
+				    	</a>
+				    </td>
+			   </tr>
+			</table>
+		</section>
+
+		<section>
+			<div class = "end">
+				<span class = "bottomName"> Christine Chen. <span class = "year">2017</span></span>
+			</div>
+		</section>
+
+		<!-- jquery 2 -->
+    	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+	    <!-- Latest compiled and minified JavaScript -->
+	    <script src="static/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
