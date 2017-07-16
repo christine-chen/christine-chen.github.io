@@ -1,5 +1,7 @@
 html {
     font-size: 100%;
+    font-family: Helvetica;
+    font-weight: lighter;
 }
 
 body {
@@ -45,26 +47,26 @@ body {
 }
 
 .nametable {
-    left: 0;
+    left: 25%;
     margin: 0px auto;
     position: absolute;
     top: 25%;
 }
 
 .name {
-    width: 100%;
+    width: 50%;
     height: auto;
     left: 0;
 }
 
 .discriptors {
-    top: 45%;
+    top: 41%;
     color: #fdf6e3;
     font-size: 1.75rem;
     text-align: center;
     left: 0;
+    font-weight: lighter;
     position: absolute;
-    text-align: center;
     width: 100%;
 }
 
@@ -121,7 +123,7 @@ body {
     text-align: right;
 }
 
-.activities {
+.experiences {
     color: #dc322f;
     text-decoration: none;
     float: right;
@@ -137,9 +139,7 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 35px;
+    padding: 10px 25px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -195,22 +195,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 60%;
+    width: 20%;
     height: auto;
     border-radius: 50%;
-    right: 5%;
 }
 
 .aboutcontent {
     font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 10px;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 5%;
+    text-align: center;
 }
 
 /*end of about me*/
@@ -244,28 +244,36 @@ body {
     padding-bottom: 10px;
 }
 
+.gitletText span {
+    color: #d33682;
+}
+
+.dogeText span {
+    color: #d33682;
+}
+
+.hangmanText span {
+    color: #d33682;
+}
+
 .gitlet {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    left: 53%;
     position: relative;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    border-radius: 50%;
 }
 
 .gitletText {
-    padding-top: 27px;
     font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 7%;
 }
 
 .gitletTable {
@@ -281,26 +289,22 @@ body {
 }
 .hangmanPic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    border-radius: 50%;
+    left: 53%;
 }
 
 .hangmanText {
-    padding-top: 27px;
     font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 7%;
 }
 
 .dogesitter {
@@ -310,26 +314,22 @@ body {
 
 .doge{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    border-radius: 50%;
+    left: 53%;
 }
 
 .dogeText {
-    padding-top: 27px;
-    font-size: 1.5rem;
+   font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 7%;
 }
 /*end of projects*/
 
@@ -369,26 +369,30 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: auto;
-    height: 25%;
+    height: 4.3%;
 }
 
 /*end of skills*/
 
 
-/*activities*/
+/*experiences*/
 
-.activitiesTitle {
+.experienceTitle{
     padding-top: 25px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
 }
 
-.activitiestable {
+.experiencestable {
     padding-top: 20px;
     /*padding-bottom: 20px;*/
     left: 0;
     margin: 0px auto;
+}
+
+.experienceIcons {
+    padding-top: 20px;
 }
 
 .redT {
@@ -397,52 +401,72 @@ body {
     height: auto;
 }
 
-.iOS {
-    display: block;
-    margin-left: 47%;
-    margin-right: auto;
+.intuit {
+    margin-left: 53%;
     position: relative;
-    width: 50%;
+    width: 35%;
     height: auto;
     border-radius: 50%;
-    right: 15%;
+}
+
+.intuitcontent {
+    font-size: 1.5rem;
+    margin-left: 0;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
+    height: 45%;
+    color: #fdf6e3;
+}
+
+.experienceIcons span {
+    color: #dc322f;
+}
+
+.iOS {
+    margin-left: 53%;
+    top: 50px;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
 
 }
-.iOSTitle {
+
+/*.iOSTitle {
     font-size: 4.0rem;
     position: relative;
     margin-right: auto;
+    margin-left: 0;
     padding-right: 50px;
-    /*width: 50%;*/
-    /*height: auto;*/
+    width: 50%;
+    height: auto;
     font-family: Helvetica Neue;
     font-weight: lighter;
     color: #fdf6e3;
     right: 8%;
-}
+}*/
 
 .iOSText {
     font-size: 1.5rem;
+    margin-left: 0;
+    top: 50px;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
     height: 45%;
     color: #fdf6e3;
-    right: 9%;
 }
 
-.iOSText span {
-    color: #dc322f;
-}
-
-/*end of activities*/
+/*end of experience*/
 
 
 /*contact*/
 
 .contacttable {
+    padding-top: 20px;
     left: 0;
     margin: 0px auto;
 }
