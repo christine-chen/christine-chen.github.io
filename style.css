@@ -314,6 +314,16 @@ body {
     bottom: 20px;
 }
 
+.gitletlist{
+    font-size: 1.3rem;
+    top:-50px;
+    position: relative;
+    color: #fdf6e3;
+    width: 100%;
+    height: auto;
+    bottom: 20px;
+}
+
 .hangman {
     padding-bottom: 10px;
     padding-top: 20px;
