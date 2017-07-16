@@ -424,6 +424,27 @@ body {
     color: #dc322f;
 }
 
+.oopseeicon {
+    margin-left: 53%;
+    top: 25px;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.oopseecontent {
+    font-size: 1.5rem;
+    margin-left: 0;
+    top: 25px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 225px;
+    width: 70%;
+    height: 45%;
+    color: #fdf6e3;
+}
+
 .iOS {
     margin-left: 53%;
     top: 50px;
@@ -433,20 +454,6 @@ body {
     border-radius: 50%;
 
 }
-
-/*.iOSTitle {
-    font-size: 4.0rem;
-    position: relative;
-    margin-right: auto;
-    margin-left: 0;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
-    font-family: Helvetica Neue;
-    font-weight: lighter;
-    color: #fdf6e3;
-    right: 8%;
-}*/
 
 .iOSText {
     font-size: 1.5rem;
