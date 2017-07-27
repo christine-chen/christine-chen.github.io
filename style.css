@@ -11,7 +11,7 @@ body {
 }
 
 /*intro*/
-.i {
+/*.i {
     color: #dc322f;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .d {
     color: #2aa198;
-}
+}*/
 .header {
     width: 100%;
     height: auto;
@@ -52,10 +52,6 @@ body {
     width: 100%;
     top: 15%;
 }*/
-
-.introduction {
-
-}
 
 .nametable {
     left: 0;
