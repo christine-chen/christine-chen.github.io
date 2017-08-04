@@ -1,5 +1,7 @@
 html {
     font-size: 100%;
+    font-family: Helvetica;
+    font-weight: 200;
 }
 
 body {
@@ -9,6 +11,17 @@ body {
 }
 
 /*intro*/
+/*.i {
+    color: #dc322f;
+}
+
+.m {
+    color: #6c71c4;
+}
+
+.d {
+    color: #2aa198;
+}*/
 .header {
     width: 100%;
     height: auto;
@@ -40,10 +53,6 @@ body {
     top: 15%;
 }*/
 
-.introduction {
-
-}
-
 .nametable {
     left: 0;
     margin: 0px auto;
@@ -52,19 +61,20 @@ body {
 }
 
 .name {
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     height: auto;
     left: 0;
 }
 
 .discriptors {
-    top: 45%;
+    top: 41%;
     color: #fdf6e3;
     font-size: 1.75rem;
     text-align: center;
     left: 0;
+    font-weight: lighter;
     position: absolute;
-    text-align: center;
     width: 100%;
 }
 
@@ -121,8 +131,19 @@ body {
     text-align: right;
 }
 
-.activities {
+.experiences {
     color: #dc322f;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.design {
+    color: #cb4b16;
     text-decoration: none;
     float: right;
     display: block;
@@ -137,9 +158,7 @@ body {
     text-decoration: none;
     float: right;
     display: block;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 35px;
+    padding: 10px 25px;
     position: relative;
     font-size: 1.5rem;
     text-align: right;
@@ -149,15 +168,12 @@ body {
     padding-top: 40px;
     color: #fdf6e3;
 }
-
 .projects:hover {
     color: #fdf6e3;
 }
-
 .skills:hover {
     color: #fdf6e3;
 }
-
 .contact:hover {
     color: #fdf6e3;
 }*/
@@ -172,15 +188,18 @@ body {
     padding-bottom: 20px;
     left: 0;
     margin: 0px auto;
-    /*padding-left: 60%;*/
 }
 
 .tealT {
+    padding-top: 30px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .aboutmeTitle {
+    padding-top: 30px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3.0rem;
     
@@ -195,22 +214,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 60%;
+    width: 20%;
     height: auto;
     border-radius: 50%;
-    right: 5%;
 }
 
 .aboutcontent {
     font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    width: 80%;
+    height: 45%;
     color: #fdf6e3;
-    right: 5%;
+    text-align: center;
 }
 
 /*end of about me*/
@@ -224,10 +243,10 @@ body {
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
+    padding-bottom: 0;
 }
 
 .projectstable {
-    padding-top: 20px;
     padding-bottom: 20px;
     left: 0;
     margin: 0px auto;
@@ -244,36 +263,59 @@ body {
     padding-bottom: 10px;
 }
 
+.gitletText span {
+    color: #d33682;
+}
+
+.dogeText span {
+    color: #d33682;
+}
+
+.hangmanText span {
+    color: #d33682;
+}
+
 .gitlet {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    left: 35%;
     position: relative;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    top: 75px;
+    border-radius: 50%;
 }
 
 .gitletText {
-    padding-top: 27px;
     font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    top: -35px;
     color: #fdf6e3;
-    right: 7%;
 }
 
 .gitletTable {
-    left: 0;
-    margin: 0px auto;
+    font-size: 1.3rem;
+    top:-50px;
+    position: relative;
+    left: 33%;
+    color: #fdf6e3;
+    width: 40%;
+    height: auto;
+    bottom: 20px;
+}
+
+/*.gitletlist{
+    font-size: 1.3rem;
+    top:-50px;
+    position: relative;
+    color: #fdf6e3;
     width: 100%;
     height: auto;
-}
+    bottom: 20px;
+}*/
 
 .hangman {
     padding-bottom: 10px;
@@ -281,26 +323,24 @@ body {
 }
 .hangmanPic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
+    top:20px;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    border-radius: 50%;
+    left: 35%;
 }
 
 .hangmanText {
-    padding-top: 27px;
     font-size: 1.5rem;
+    margin-left: 0;
+    top: 20px;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 7%;
 }
 
 .dogesitter {
@@ -310,26 +350,22 @@ body {
 
 .doge{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     width: 35%;
     height: auto;
-    border-radius: 20%;
-    right: 7%;
+    border-radius: 50%;
+    left: 35%;
 }
 
 .dogeText {
-    padding-top: 27px;
-    font-size: 1.5rem;
+   font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
-    height: auto;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 7%;
 }
 /*end of projects*/
 
@@ -339,6 +375,7 @@ body {
 
 .skillsTitle {
     padding-top: 25px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -353,96 +390,166 @@ body {
 
 .blueT {
     padding-top: 25px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .languagestable {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0px auto;
+    margin-left:10%; 
+    margin-right:10%;
+    width: 85%;
 }
 
 
 .python {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    height: 25%;
+    /*vertical-align: middle;*/
+    width: 70%;
+    height: auto;
 }
 
 /*end of skills*/
 
 
-/*activities*/
+/*experiences*/
 
-.activitiesTitle {
+.experienceTitle{
     padding-top: 25px;
+    padding-bottom: 10px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
 }
 
-.activitiestable {
+.experiencestable {
     padding-top: 20px;
     /*padding-bottom: 20px;*/
     left: 0;
     margin: 0px auto;
 }
 
+.experienceIcons {
+    padding-top: 20px;
+}
+
 .redT {
     padding-top: 25px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
-.iOS {
-    display: block;
-    margin-left: 47%;
-    margin-right: auto;
+.intuit {
+    margin-left: 35%;
     position: relative;
-    width: 50%;
+    width: 35%;
     height: auto;
     border-radius: 50%;
-    right: 15%;
-
 }
-.iOSTitle {
-    font-size: 4.0rem;
+
+.intuitcontent {
+    font-size: 1.5rem;
+    margin-left: 0;
     position: relative;
-    margin-right: auto;
-    padding-right: 50px;
-    /*width: 50%;*/
-    /*height: auto;*/
-    font-family: Helvetica Neue;
-    font-weight: lighter;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
     color: #fdf6e3;
-    right: 8%;
+}
+
+.experienceIcons span {
+    color: #dc322f;
+}
+
+.oopseeicon {
+    margin-left: 35%;
+    top: 25px;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.oopseecontent {
+    font-size: 1.5rem;
+    margin-left: 0;
+    top: 25px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
+    color: #fdf6e3;
+}
+
+.iOS {
+    margin-left: 35%;
+    top: 50px;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .iOSText {
     font-size: 1.5rem;
+    margin-left: 0;
+    top: 50px;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    width: 50%;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
     height: 45%;
     color: #fdf6e3;
-    right: 9%;
 }
 
-.iOSText span {
-    color: #dc322f;
+/*end of experience*/
+
+.paddingsection {
+    padding-bottom: 90px;
 }
 
-/*end of activities*/
+/*design*/
+
+.designtable {
+    /*padding-top: 20px;*/
+    left: 0;
+    margin: 0px auto;
+}
+
+.designTitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fdf6e3;
+}
+
+.orangeT {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20px;
+    height: auto;
+}
+
+.designIcons {
+    left: 0;
+    margin: 0px auto;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*end of design*/
 
 
 /*contact*/
 
 .contacttable {
+    padding-top: 20px;
     left: 0;
     margin: 0px auto;
 }
@@ -510,6 +617,8 @@ body {
     margin-left: auto;
 }
 
+/*end of contacts*/
+
 .end {
     text-align: center;
 }
@@ -526,44 +635,3 @@ body {
     color: #93a1a1;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*end contact*/
