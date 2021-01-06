@@ -192,14 +192,14 @@ body {
 
 .tealT {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 20px;
     height: auto;
 }
 
 .aboutmeTitle {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color:#fdf6e3;
     font-size: 3.0rem;
     
@@ -243,7 +243,7 @@ body {
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 
 .projectstable {
@@ -254,6 +254,7 @@ body {
 
 .pinkT {
     padding-top: 25px;
+    padding-bottom: 20px;
     width: 20px;
     height: auto;
 }
@@ -291,6 +292,7 @@ body {
     position: relative;
     padding-left: 15px;
     padding-right: 10%;
+    padding-top: 5px;
     width: 70%;
     top: -35px;
     color: #fdf6e3;
@@ -375,7 +377,7 @@ body {
 
 .skillsTitle {
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -390,7 +392,7 @@ body {
 
 .blueT {
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 20px;
     height: auto;
 }
@@ -415,7 +417,7 @@ body {
 
 .experienceTitle{
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color:#fdf6e3;
     font-size: 3rem;
     text-align: center;
@@ -434,9 +436,28 @@ body {
 
 .redT {
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 20px;
     height: auto;
+}
+
+.disney {
+    margin-left: 35%;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.disneycontent {
+    font-size: 1.5rem;
+    margin-left: 0;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
+    color: #fdf6e3;
 }
 
 .intuit {
@@ -513,13 +534,11 @@ body {
 /*design*/
 
 .designtable {
-    /*padding-top: 20px;*/
     left: 0;
     margin: 0px auto;
 }
 
 .designTitle {
-    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 3rem;
     text-align: center;
@@ -527,7 +546,6 @@ body {
 }
 
 .orangeT {
-    padding-top: 20px;
     padding-bottom: 20px;
     width: 20px;
     height: auto;
@@ -556,17 +574,20 @@ body {
 
 .contactMe {
     position: relative;
+    padding-bottom: 10px;
     top: 75%;
 }
 
 .purpleT {
     padding-top: 25px;
+    padding-bottom: 10px;
     width: 20px;
     height: auto;
 }
 
 .contactTitle {
     padding-top: 25px;
+    padding-bottom: 10px;
     font-size: 3rem;
     text-align: center;
     color: #fdf6e3;
