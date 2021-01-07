@@ -440,6 +440,9 @@ body {
     width: 20px;
     height: auto;
 }
+.disneysection {
+    padding-bottom: 15px;
+}
 
 .disney {
     margin-left: 35%;
@@ -453,6 +456,7 @@ body {
     font-size: 1.5rem;
     margin-left: 0;
     position: relative;
+    padding-bottom: 25px;
     padding-left: 15px;
     padding-right: 10%;
     width: 70%;
