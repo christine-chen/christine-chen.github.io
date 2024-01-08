@@ -247,9 +247,10 @@ body {
 }
 
 .projectstable {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     left: 0;
     margin: 0px auto;
+    margin-top: 25px;
 }
 
 .pinkT {
@@ -453,6 +454,30 @@ body {
 }
 
 .disneycontent {
+    font-size: 1.5rem;
+    margin-left: 0;
+    position: relative;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 10%;
+    width: 70%;
+    height: 45%;
+    color: #fdf6e3;
+}
+
+.applesection {
+    padding-bottom: 15px;
+}
+
+.apple {
+    margin-left: 35%;
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.applecontent {
     font-size: 1.5rem;
     margin-left: 0;
     position: relative;
